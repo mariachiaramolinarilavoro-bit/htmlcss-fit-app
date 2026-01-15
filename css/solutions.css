@@ -7,6 +7,7 @@
 
 .stats-grid:last-child {
     background-color: #6D68CB;
+    background: linear-gradient(90deg,rgba(109, 104, 203, 1) 0%, rgba(87, 199, 165, 1) 100%, rgba(237, 221, 83, 1) 100%);
 }
 
 .stats-grid:nth-of-type(3)>.stat-number,
@@ -64,6 +65,23 @@ select:hover {
 
 .progress-fill::before {
     content: "65%";
+    color: white;
 }
 
 /*/Tenth Edit*/
+a:hover,
+a:first-child {
+    background-color: rgb(6, 7, 44);
+}
+
+/*/Eleventh&Twelfth Edit*/
+
+.quote-box::before {
+    content:"\F6B0"
+}
+
+.quote-box::after {
+    content:"\F6B0"
+}
+
+/*/Thirteenth Edit*/
