@@ -40,7 +40,8 @@
 
 /*/Fifth Edit*/
 
-.exercise-name::before {
+.exercise-item:nth-child(2) .exercise-name::before, 
+.exercise-item:nth-child(4) .exercise-name::before {
     content: "⚡";
 }
 
@@ -51,6 +52,7 @@ select:hover {
     box-shadow: 5px 5px 5px rgb(36, 36, 108);
     position: relative;
     border-color: rgb(36, 36, 108);
+    outline: none;
 }
 
 /*/Seventh&Eighth Edit*/
@@ -63,9 +65,14 @@ select:hover {
 
 /*/Ninth Edit*/
 
-.progress-fill::before {
+.progress-fill::after {
     content: "65%";
     color: white;
+    position: absolute;
+    right: 0;
+    left: 90%;
+    font-size: 11px;
+    top: -3px;
 }
 
 /*/Tenth Edit*/
@@ -77,11 +84,16 @@ a:first-child {
 /*/Eleventh&Twelfth Edit*/
 
 .quote-box::before {
-    content:"\F6B0"
+    content:"\F6B0";
+    position:absolute;
+    left: 20px;
+    top: 5%;
 }
 
 .quote-box::after {
-    content:"\F6B0"
+    content:"\F6B0";
+    position:absolute;
+    right: 20px;
 }
 
 /*/Thirteenth Edit*/
