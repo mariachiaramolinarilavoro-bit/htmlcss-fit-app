@@ -1,0 +1,69 @@
+.stats-grid:first-child::before {
+    content: "🔥";
+    font-size: 30px;
+}
+
+/*/First Edit*/
+
+.stats-grid:last-child {
+    background-color: #6D68CB;
+}
+
+.stats-grid:nth-of-type(3)>.stat-number,
+.stats-grid:nth-of-type(3)>.stat-label {
+    color: white;
+}
+
+/*/Second Edit*/
+
+.stats-grid:hover {
+    box-shadow: 5px 5px 5px #000;
+    transform: translateY(-5px);
+    position: relative;
+}
+
+/*/Thirt Edit*/
+
+.workout-plan:nth-last-of-type(even) {
+    background-color: #FFF8BA;
+    border-left: 4px solid #F39707;
+}
+
+/*/Fourth Edit*/
+
+.exercise-item:first-child,
+.exercise-item:last-child {
+    border-left: 4px solid #2ACB6E;
+    background-color: #F0FFF4;
+}
+
+/*/Fifth Edit*/
+
+.exercise-name::before {
+    content: "⚡";
+}
+
+/*/Sixth Edit*/
+
+input:hover,
+select:hover {
+    box-shadow: 5px 5px 5px rgb(36, 36, 108);
+    position: relative;
+    border-color: rgb(36, 36, 108);
+}
+
+/*/Seventh&Eighth Edit*/
+
+.save-btn:hover {
+    box-shadow: 5px 5px 5px rgb(36, 36, 108);
+    background-color: rgb(6, 7, 44);
+    transform: translateY(-2px);
+}
+
+/*/Ninth Edit*/
+
+.progress-fill::before {
+    content: "65%";
+}
+
+/*/Tenth Edit*/
